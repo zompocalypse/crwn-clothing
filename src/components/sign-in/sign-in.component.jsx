@@ -34,7 +34,7 @@ export default class SignIn extends React.Component {
 
       <form onSubmit={this.handleSubmit}>
         <FormInput name="email" type="email" value={this.state.email} handleChange={this.handleChange} label="email" required />
-        <FormInput name="password" type="password" value={this.state.password} handlChange={this.handleChange} label="password" required />
+        <FormInput name="password" type="password" value={this.state.password} handleChange={this.handleChange} label="password" required />
         <CustomButton type="submit" value="Submit Form">SIGN IN</CustomButton>
       </form>
     </div>
